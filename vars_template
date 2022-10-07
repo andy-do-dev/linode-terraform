@@ -1,0 +1,29 @@
+variable "authorized_keys" {
+  description = "my public key"
+  type        = string
+  default     = "PUBLIC KEY HERE"
+}
+
+variable "token" {
+  description = "linode api token"
+  type        = string
+  default     = "API TOKEN HERE"
+}
+
+variable "domain" {
+  description = "domain name"
+  type        = string
+  default     = "DOMAIN HERE"
+}
+
+variable "email" {
+  description = "required for DNS SOA"
+  type        = string
+  default     = "SOA EMAIL HERE"
+}
+
+variable "root_pass" {
+  description = "root password for generated instance"
+  type        = string
+  default     = "ROOT PASSWORD HERE"
+}
