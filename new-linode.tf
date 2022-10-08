@@ -1,7 +1,7 @@
 # linode configuration details, check api/site for reminders.
 resource "linode_instance" "terraform-web" {
   image           = "linode/debian11"
-  label           = "NAME HERE"
+  label           = "student1"
   group           = "Terraform"
   region          = "eu-west"
   type            = "g6-nanode-1"

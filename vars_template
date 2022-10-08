@@ -1,3 +1,5 @@
+# edit this file to reflect account details.
+
 variable "authorized_keys" {
   description = "my public key"
   type        = string
